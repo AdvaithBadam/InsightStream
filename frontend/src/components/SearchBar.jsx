@@ -2,10 +2,10 @@
  * SearchBar Component — Owned by Teammate L
  *
  * Props:
- *   searchQuery    (string)   — current search input value
- *   setSearchQuery (function) — state setter for the input
- *   onSearch       (function) — form submit handler (receives event)
- *   isSearching    (boolean)  — whether a search is in progress
+ * searchQuery    (string)   — current search input value
+ * setSearchQuery (function) — state setter for the input
+ * onSearch       (function) — form submit handler (receives event)
+ * isSearching    (boolean)  — whether a search is in progress
  */
 
 import { Search, Zap, Loader2 } from 'lucide-react';
@@ -46,7 +46,8 @@ function SearchBar({ searchQuery, setSearchQuery, onSearch, isSearching }) {
               <Zap className="w-4 h-4" />
               Search
             </>
-          )}
+          )
+          }
         </button>
       </div>
     </form>
